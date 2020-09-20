@@ -108,6 +108,7 @@ function Game_Avatar() {
 	OnlineManager.user = null;
 	OnlineManager.syncBusy = false;	//同期接続する瞬間、送信が受信を上書きするのを阻止
 
+	
 	//ネット上からfirebaseファイルを読み込む
 	OnlineManager.initialize = function() {
 		var script = document.createElement('script');
@@ -479,6 +480,7 @@ function Game_Avatar() {
 
 
 
+
 OnlineManager.goOffline = function () {
   firebase.database().goOffline();
 };
@@ -499,3 +501,4 @@ Game_Switches.prototype.setValue = function (switchId, value, byOnline) {
     }
   }
 };
+
