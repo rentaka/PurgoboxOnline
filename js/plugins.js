@@ -59,7 +59,7 @@ var $plugins =
 {"name":"OperateDearFollowers","status":true,"description":"フォロワーを操作するプラグインです。","parameters":{"----基本的な設定----":"","操作用スイッチ番号":"247"}},
 {"name":"HorizontalScrollingMove","status":true,"description":"横スクロール移動プラグイン","parameters":{"有効スイッチ番号":"0","プレイヤー上向き許容":"false","イベント上向き許容":"true","画像のみ向き制限":"true"}},
 {"name":"PD_DelayTitle","status":true,"description":"タイトル画面の各画像の表示にディレイとフェードイン機能を追加します。","parameters":{"Delay BG1":"0","Fade BG1":"300","Delay BG2":"60","Fade BG2":"60","Delay Title":"300","Fade Title":"250","Delay Command":"300","Pass To Decide":"0"}},
-{"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
+{"name":"DataCacheBlocker","status":false,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
 {"name":"AutoTranslation","status":true,"description":"自動翻訳プラグイン","parameters":{"ToLanguage":"[\"ja\",\"en\",\"zh-Hans\",\"ko\",\"ru\"]","TranslateDatabase":"false","TranslateMessage":"true","RealtimeTranslate":"true","TranslationSwitchId":"397","LanguageVariableId":"302","InvertTranslationSwitch":"false","SubscriptionKey":"","OutLog":"TEST"}},
 {"name":"TMEventClick","status":true,"description":"イベントをクリックして起動、ドラッグで移動させる機能を\n追加します。","parameters":{"dropStart":"false","canMultipleDrop":"false","lockTurnEnabled":"false","noDropRegions":""}},
 {"name":"AudioSource","status":true,"description":"音源と聞き手の位置関係に応じて自動的に音量・位相を調節します。","parameters":{"listener":"screen","decay":"85","pan":"10","cutoff":"0"}},
