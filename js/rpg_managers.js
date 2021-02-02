@@ -243,7 +243,7 @@ DataManager.loadGlobalInfo = function() {
     try {
         json = StorageManager.load(0);
     } catch (e) {
-        console.error(e);
+        //console.error(e);
         return [];
     }
     if (json) {
@@ -339,7 +339,7 @@ DataManager.saveGame = function(savefileId) {
         StorageManager.backup(savefileId);
         return this.saveGameWithoutRescue(savefileId);
     } catch (e) {
-        console.error(e);
+        //console.error(e);
         try {
             StorageManager.remove(savefileId);
             StorageManager.restoreBackup(savefileId);
@@ -353,7 +353,7 @@ DataManager.loadGame = function(savefileId) {
     try {
         return this.loadGameWithoutRescue(savefileId);
     } catch (e) {
-        console.error(e);
+        //console.error(e);
         return false;
     }
 };
@@ -514,7 +514,7 @@ ConfigManager.load = function() {
     try {
         json = StorageManager.load(-1);
     } catch (e) {
-        console.error(e);
+        //console.error(e);
     }
     if (json) {
         config = JSON.parse(json);
@@ -1916,8 +1916,8 @@ SceneManager.terminate = function() {
 };
 
 SceneManager.onError = function(e) {
-    console.error(e.message);
-    console.error(e.filename, e.lineno);
+    //////console.error(e.message);
+    ////console.error(e.filename, e.lineno);
     try {
         this.stop();
         Graphics.printError('Error', e.message);
@@ -1946,7 +1946,7 @@ SceneManager.onKeyDown = function(event) {
 SceneManager.catchException = function(e) {
     if (e instanceof Error) {
         Graphics.printError(e.name, e.message);
-        console.error(e.stack);
+        //console.error(e.stack);
     } else {
         Graphics.printError('UnknownError', e);
     }

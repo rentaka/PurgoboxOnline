@@ -149,7 +149,7 @@
       this._foregroundY = this._displayY;
     }
   };
-
+console.log("a")
   Game_Map.prototype.foregroundOx = function() {
     this.guardForeground();
     if (this._foregroundZero) {
@@ -255,7 +255,7 @@
       this._foregroundY += this._foregroundSy / this.tileHeight() / 2;
     }
   };
-
+  console.log("b")
   //
   // sprites
   //
@@ -291,5 +291,5 @@
       this._foreground.origin.y = $gameMap.foregroundOy();
     }
   };
-
+  console.log("c")
 })();

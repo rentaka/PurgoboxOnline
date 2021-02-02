@@ -86,7 +86,15 @@
  * ライセンス：
  * このプラグインの利用法に制限はありません。お好きなようにどうぞ。
  */
+try{
 
+	if (window.navigator.onLine) {
+		console.log("online");
+	  } else {
+		console.log("offline");
+		throw new Exception();
+	  }
+	
 function OnlineManager() {
 	throw new Error('This is a static class');
 }
@@ -116,8 +124,9 @@ function Game_Avatar() {
 		script.src = this.url;
 		script.async = true;
 		script.onload = this.awake.bind(this);
-		script.onerror = function(e) {
-			throw new Error('firebaseの読み込みに失敗しました。F5でやり直してみてください。');
+		script.onerror = function(e)
+		 {
+			;
 		};
 		document.body.appendChild(script);
 	};
@@ -480,15 +489,21 @@ function Game_Avatar() {
 
 
 
-
+try {
 OnlineManager.goOffline = function () {
   firebase.database().goOffline();
 };
 
 OnlineManager.goOnline = function () {
-  firebase.database().goOnline();
+	
+		firebase.database().goOnline();  
 };
+}catch (error) {
+	console.log("go_offline");
+		OnlineManager.goOffline();}
 
+
+		
 const offlineSwitch = 390;
 const _Game_Switches_setValue = Game_Switches.prototype.setValue;
 Game_Switches.prototype.setValue = function (switchId, value, byOnline) {
@@ -500,5 +515,9 @@ Game_Switches.prototype.setValue = function (switchId, value, byOnline) {
       OnlineManager.goOnline();
     }
   }
-};
 
+};  
+}
+catch(error){
+
+}
