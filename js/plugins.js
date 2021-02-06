@@ -71,7 +71,7 @@ var $plugins =
 {"name":"------------------------","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_AnimatedText","status":true,"description":"(v1.3) Apresenta multiplos textos animados.","parameters":{"Letter Space X-Axis":"0","Letter Space Y-Axis":"0"}},
 {"name":"MOG_CharacterMotion","status":true,"description":"(v1.1) Sistema de animações dos sprites dos personagens.","parameters":{}},
-{"name":"MOG_CharParticles","status":true,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}},
+{"name":"MOG_CharParticles","status":false,"description":"(v1.1) Adiciona o sistema de partículas nos characters.","parameters":{}},
 {"name":"MOG_CharShatterEffect","status":true,"description":"(v1.1) Cria o efeito de shatter nos sprites dos characters.","parameters":{}},
 {"name":"MOG_EventIndicators","status":true,"description":"(v1.0) Apresenta indicadores animados acima do evento.","parameters":{"Default Font Size":"16","Default X - Axis":"0","Default Y - Axis":"0"}},
 {"name":"MOG_EventText","status":true,"description":"(v1.2) Adiciona um texto em cima do evento.","parameters":{"X axis":"0","Y axis":"0","Font Size":"18"}},
