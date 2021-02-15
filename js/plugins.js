@@ -31,7 +31,7 @@ var $plugins =
 {"name":"KMS_WaterMapEffect","status":true,"description":"[v1.1.0] マップに水中エフェクトを適用します。","parameters":{"Flicker image":"KMS_cloud","Wave image":"KMS_wave","Wave opacity":"2","Speed X":"0.02","Speed Y":"0.02","Auto tone change":"1"}},
 {"name":"CharacterGraphicExtend","status":true,"description":"キャラクターグラフィック表示拡張プラグイン","parameters":{"イベント消去無効":"OFF"}},
 {"name":"TMCharacterEx","status":true,"description":"イベントに表示位置補正、回転、拡大の機能を追加します。","parameters":{}},
-{"name":"EST_Save_Map_Event","status":true,"description":"This plugin can make us save the map events so it won't be reloaded from database when entering new map.\r\n<EST_SAVE_MAP_EVENT>","parameters":{}},
+{"name":"EST_Save_Map_Event","status":false,"description":"This plugin can make us save the map events so it won't be reloaded from database when entering new map.\r\n<EST_SAVE_MAP_EVENT>","parameters":{}},
 {"name":"MessageWindowPopup","status":true,"description":"フキダシウィンドウプラグイン","parameters":{"フォントサイズ":"22","余白":"2","自動設定":"ON","フェイス倍率":"75","ウィンドウ連携":"ON","行間":"4","ウィンドウ透過":"OFF"}},
 {"name":"MovieManager","status":true,"description":"動画管理プラグイン","parameters":{}},
 {"name":"ThroughFailedToLoad","status":true,"description":"ロード失敗エラーのすり抜けプラグイン","parameters":{"テストプレー時無効":"OFF","Web版で無効":"false","無視種別":"3"}},

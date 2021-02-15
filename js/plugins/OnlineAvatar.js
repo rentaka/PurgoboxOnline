@@ -86,14 +86,6 @@
  * ライセンス：
  * このプラグインの利用法に制限はありません。お好きなようにどうぞ。
  */
-try{
-
-	if (window.navigator.onLine) {
-		console.log("online");
-	  } else {
-		console.log("offline");
-		throw new Exception();
-	  }
 	
 function OnlineManager() {
 	throw new Error('This is a static class');
@@ -516,8 +508,4 @@ Game_Switches.prototype.setValue = function (switchId, value, byOnline) {
     }
   }
 
-};  
-}
-catch(error){
-
-}
+};
