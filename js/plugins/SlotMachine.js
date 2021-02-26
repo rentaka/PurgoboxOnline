@@ -205,16 +205,16 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
             case "scale":
                 switch (args[1]) {
                     case "0":
-                        scale = 1;
-                        break;
-                    case "1":
-                        scale = 10;
-                        break;
-                    case "2":
                         scale = 100;
                         break;
+                    case "1":
+                        scale = 1000;
+                        break;
+                    case "2":
+                        scale = 10000;
+                        break;
                     default :
-                        scale = 1;
+                        scale = 100;
                         break;
                 }
                 break;
