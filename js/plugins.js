@@ -68,6 +68,7 @@ var $plugins =
 {"name":"MadeWithMv","status":false,"description":"メイン画面へ進む前に、\"Made with MV\"のスプラッシュ画面もしくはカスタマイズされたスプラッシュ画面を表示します。","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"","Fade In Time":"","Wait Time":"","Sound Effect":""}},
 {"name":"SlotMachine","status":true,"description":"Slot Machine scene","parameters":{"Variable ID":"162","Help Text":"カーソルキーの上でベット、カーソルキーの下でスタート","Won Text":"おめでとうございます！Win Coin枚獲得です！","Lost Text":"残念でした。","Replay Text":"もう一度やりますか？","Coin Full Text":"コイン枚数が制限に達しました。","Bet Text":"ベット","Spin Text":"スピン","Yes Text":"はい","No Text":"いいえ"}},
 {"name":"UseOnlyOneSave","status":true,"description":"単一セーブデータプラグイン","parameters":{"セーブメッセージ":""}},
+{"name":"TSChoice","status":true,"description":"選択肢を表示中にマップのイベント、遠景の処理を止め、メニュー画面を開いた時のようなぼかしたマップキャプチャーを入れます","parameters":{}},
 {"name":"-VISUAL","status":false,"description":"","parameters":{}},
 {"name":"------------------------","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_AnimatedText","status":true,"description":"(v1.3) Apresenta multiplos textos animados.","parameters":{"Letter Space X-Axis":"0","Letter Space Y-Axis":"0"}},
