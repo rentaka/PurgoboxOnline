@@ -3,7 +3,6 @@
 var $plugins =
 [
 {"name":"SA_CoreSpeedImprovement","status":true,"description":"v18.1 SA Core Speed Improvement (Define at the top)","parameters":{"Enable CWC-cache":"false","Minimum CWC-cache holding count":"15","Logging level":"4"}},
-{"name":"HIME_CustomPageConditions","status":true,"description":"v1.6 イベントページの出現条件をイベント処理でカスタムできます","parameters":{}},
 {"name":"EasingPicture","status":false,"description":"ピクチャーの移動パターンを増やします。","parameters":{}},
 {"name":"MoreCharacterFrames","status":true,"description":"キャラクターの3フレーム以上のアニメーションを可能にします。","parameters":{}},
 {"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyARuSLKWc7WAJT-PuEyLRo8NrlgiEDsSVc","authDomain":"purgo-339a5.firebaseapp.com","databaseURL":"https://purgo-339a5.firebaseio.com","avatarEvent":"200","syncSwitchStart":"600","syncSwitchEnd":"700","syncVariableStart":"362","syncVariableEnd":"550"}},
@@ -69,7 +68,6 @@ var $plugins =
 {"name":"MadeWithMv","status":false,"description":"メイン画面へ進む前に、\"Made with MV\"のスプラッシュ画面もしくはカスタマイズされたスプラッシュ画面を表示します。","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"","Fade In Time":"","Wait Time":"","Sound Effect":""}},
 {"name":"SlotMachine","status":true,"description":"Slot Machine scene","parameters":{"Variable ID":"162","Help Text":"カーソルキーの上でベット、カーソルキーの下でスタート","Won Text":"おめでとうございます！Win Coin枚獲得です！","Lost Text":"残念でした。","Replay Text":"もう一度やりますか？","Coin Full Text":"コイン枚数が制限に達しました。","Bet Text":"ベット","Spin Text":"スピン","Yes Text":"はい","No Text":"いいえ"}},
 {"name":"UseOnlyOneSave","status":true,"description":"単一セーブデータプラグイン","parameters":{"セーブメッセージ":""}},
-{"name":"FileDownloader","status":true,"description":"ファイルダウンロードプラグイン","parameters":{"正常終了スイッチID":"0","異常終了スイッチID":"0","配布サイトURL":"https://raw.githubusercontent.com/triacontane/RPGMakerMV/master/"}},
 {"name":"-VISUAL","status":false,"description":"","parameters":{}},
 {"name":"------------------------","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_AnimatedText","status":true,"description":"(v1.3) Apresenta multiplos textos animados.","parameters":{"Letter Space X-Axis":"0","Letter Space Y-Axis":"0"}},
