@@ -63,11 +63,15 @@ var $plugins =
 {"name":"TMEventClick","status":true,"description":"イベントをクリックして起動、ドラッグで移動させる機能を\n追加します。","parameters":{"dropStart":"false","canMultipleDrop":"false","lockTurnEnabled":"false","noDropRegions":""}},
 {"name":"AudioSource","status":true,"description":"音源と聞き手の位置関係に応じて自動的に音量・位相を調節します。","parameters":{"listener":"screen","decay":"85","pan":"10","cutoff":"0"}},
 {"name":"hit","status":true,"description":"This plugin can add size to event so it can become large event. also add extra trigger coordinate.\r\n<EST_EVENT_SIZE_AND_TRIGGERS>","parameters":{}},
-{"name":"KNH_CharacterShadow","status":false,"description":"キャラクターに影をつけるプラグイン","parameters":{"影画像":"Shadow2"}},
+{"name":"KNH_CharacterShadow","status":true,"description":"キャラクターに影をつけるプラグイン","parameters":{"影画像":"Shadow2"}},
 {"name":"CustomizeConfigItem","status":true,"description":"オプション任意項目作成プラグイン","parameters":{"数値項目":"","文字項目":"","スイッチ項目":"","音量項目":""}},
 {"name":"MadeWithMv","status":false,"description":"メイン画面へ進む前に、\"Made with MV\"のスプラッシュ画面もしくはカスタマイズされたスプラッシュ画面を表示します。","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"","Fade In Time":"","Wait Time":"","Sound Effect":""}},
 {"name":"SlotMachine","status":true,"description":"Slot Machine scene","parameters":{"Variable ID":"162","Help Text":"カーソルキーの上でベット、カーソルキーの下でスタート","Won Text":"おめでとうございます！Win Coin枚獲得です！","Lost Text":"残念でした。","Replay Text":"もう一度やりますか？","Coin Full Text":"コイン枚数が制限に達しました。","Bet Text":"ベット","Spin Text":"スピン","Yes Text":"はい","No Text":"いいえ"}},
 {"name":"UseOnlyOneSave","status":true,"description":"単一セーブデータプラグイン","parameters":{"セーブメッセージ":""}},
+<<<<<<< HEAD
+=======
+{"name":"TSChoice","status":true,"description":"選択肢を表示中にマップのイベント、遠景の処理を止め、メニュー画面を開いた時のようなぼかしたマップキャプチャーを入れます","parameters":{}},
+>>>>>>> parent of 53bbaa9 (si)
 {"name":"-VISUAL","status":false,"description":"","parameters":{}},
 {"name":"------------------------","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"MOG_AnimatedText","status":true,"description":"(v1.3) Apresenta multiplos textos animados.","parameters":{"Letter Space X-Axis":"0","Letter Space Y-Axis":"0"}},
