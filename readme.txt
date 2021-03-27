@@ -39,17 +39,6 @@
 初めからオフラインで起動したい場合は、「オフライン用」の中身を既存のファイルに上書きしてください。
 オンラインモードにすると、外部通信が行われます。
 
-翻訳について：
-translationというフォルダの中のjsというファイルを上書きしてください。
-ゲーム内の初期MAPに存在する本から、translationを選択し、言語を選択してください。
-About translation:
-Overwrite the file js in the folder translation.
-From the books that exist in the initial MAP in the game, select translation and select the language.
-
-起動時のエラーについて：
-起動時に TypeError ”Cannot read property '42' of undefined”とエラーが出る場合、
-disable_autoloadというフォルダの中のjsというファイルを上書きしてください。
-
 データ破損について：
 セーブデータがロードできなくなり、エラーが出た場合、saveフォルダ内のfile1.rpgsave.bakファイルをfile1.rpgsaveとリネームし
 上書き保存することで改善される可能性があります。
@@ -319,10 +308,14 @@ MAPを追加
 MAP追加
 寄付館に寄付するアイテムを変更(実績125個解除)
 幻聴追加
+4.3.7
+チスイロイドのフラグを修正
+チャットログボタンの位置の不具合修正
+寄付館にアイテムを寄付した際のBGMに関する挙動の変更
+研究員が再度湧いてしまうバグの修正
+一部実績を変更
+寄付館メッセージの色を変更
 
 
 次回更新予定
-低確率でMAPに出現するイベントを用意する
-I purgodをしっかりとしたものに作り変える？
 絵のリメイク
-DeepLを使って翻訳する（完成後）
