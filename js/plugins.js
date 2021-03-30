@@ -4,8 +4,8 @@ var $plugins =
 [
 {"name":"SA_CoreSpeedImprovement","status":true,"description":"v18.1 SA Core Speed Improvement (Define at the top)","parameters":{"Enable CWC-cache":"false","Minimum CWC-cache holding count":"15","Logging level":"4"}},
 {"name":"MoreCharacterFrames","status":true,"description":"キャラクターの3フレーム以上のアニメーションを可能にします。","parameters":{}},
-{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyARuSLKWc7WAJT-PuEyLRo8NrlgiEDsSVc","authDomain":"purgo-339a5.firebaseapp.com","databaseURL":"https://purgo-339a5.firebaseio.com","avatarEvent":"200","syncSwitchStart":"600","syncSwitchEnd":"700","syncVariableStart":"362","syncVariableEnd":"550"}},
 {"name":"TkoolMV_PluginCommandBook","status":true,"description":"プラグインコマンド集","parameters":{"制御文字の拡張":"はい","スクリプトに制御文字適用":"はい"}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyARuSLKWc7WAJT-PuEyLRo8NrlgiEDsSVc","authDomain":"purgo-339a5.firebaseapp.com","databaseURL":"https://purgo-339a5.firebaseio.com","avatarEvent":"200","syncSwitchStart":"600","syncSwitchEnd":"700","syncVariableStart":"362","syncVariableEnd":"550"}},
 {"name":"smoothscroll","status":false,"description":"カメラの移動を滑らかにするプラグインです。","parameters":{}},
 {"name":"Yami_8DIR","status":true,"description":"プレイヤーの8方向の移動が可能になります。","parameters":{}},
 {"name":"AutoLoad","status":true,"description":"タイトル画面仕様変更プラグイン","parameters":{"効果音演奏":"false","タイトルスキップポリシー":"1","タイトルマップID":"0"}},
@@ -82,7 +82,6 @@ var $plugins =
 {"name":"YEP_EventProxActivate","status":true,"description":"v1.01 Allows events to activate by being in range of them\ninstead of needing to be exactly next to or on top of them.","parameters":{}},
 {"name":"------------------------","status":false,"description":"----------------------------------------------------------------------------------","parameters":{}},
 {"name":"OriginalTimer","status":true,"description":"オリジナルタイマー","parameters":{"TimerSave":"NO"}},
-{"name":"Saba_Performance","status":true,"description":"","parameters":{}},
 {"name":"SCGetDistance","status":true,"description":"２つのイベントまたはイベントと座標との距離を求めます。","parameters":{}},
 {"name":"MKR_PlayerSensor","status":true,"description":"(v2.3.4) プレイヤー探索プラグイン","parameters":{"探索設定":"====================================","Sensor_Switch":"A","Lost_Sensor_Switch":"","Both_Sensor":"OFF","Terrain_Decision":"ON","Auto_Sensor":"false","Event_Decision":"ON","Region_Decision":"[]","Real_Range_X":"0.000","Real_Range_Y":"0.000","視界設定":"====================================","Range_Visible":"OFF","Range_Color":"blue","Range_Opacity":"60","Player_Found":"{\"Ballon\":\"0\",\"Se\":\"{\\\"Name\\\":\\\"\\\",\\\"Volume\\\":\\\"90\\\",\\\"Pitch\\\":\\\"100\\\",\\\"Pan\\\":\\\"0\\\"}\",\"Common_Event\":\"0\",\"Delay\":\"0\"}","Player_Lost":"{\"Ballon\":\"0\",\"Se\":\"{\\\"Name\\\":\\\"\\\",\\\"Volume\\\":\\\"90\\\",\\\"Pitch\\\":\\\"100\\\",\\\"Pan\\\":\\\"0\\\"}\",\"Common_Event\":\"0\",\"Delay\":\"0\"}"}},
 {"name":"EventInformation","status":true,"description":"イベントの頭上に文字を表示したい時に使います","parameters":{}},
