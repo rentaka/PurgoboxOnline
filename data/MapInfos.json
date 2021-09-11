@@ -459,5 +459,5 @@ null,
 {"id":457,"expanded":true,"name":"箱屋前","order":458,"parentId":456,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":458,"expanded":false,"name":"コピー用","order":459,"parentId":457,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":459,"expanded":true,"name":"労働工場","order":88,"parentId":80,"scrollX":1786.909090909091,"scrollY":1005.8181818181819},
-{"id":460,"expanded":true,"name":"共有君","order":460,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":460,"expanded":true,"name":"共有君","order":460,"parentId":0,"scrollX":1786.909090909091,"scrollY":1005.8181818181819}
 ]
