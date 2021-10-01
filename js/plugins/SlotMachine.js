@@ -213,6 +213,12 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
                     case "2":
                         scale = 10000;
                         break;
+                    case "3":
+                        scale = 100000;
+                        break;
+                    case "4":
+                        scale = 1000000;
+                        break;
                     default :
                         scale = 100;
                         break;
@@ -462,7 +468,7 @@ function Scene_SlotMachine() {
 Scene_SlotMachine.prototype = Object.create(Scene_MenuBase.prototype);
 Scene_SlotMachine.prototype.constructor = Scene_SlotMachine;
 
-Scene_SlotMachine.COIN_MAX_VALUE = 99999999;
+Scene_SlotMachine.COIN_MAX_VALUE = 99999999999999999;
 Scene_SlotMachine.ODDS_MAX_VALUE = 100000;
 
 Scene_SlotMachine.prototype.initialize = function () {
