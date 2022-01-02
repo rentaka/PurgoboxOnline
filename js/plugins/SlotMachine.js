@@ -772,6 +772,10 @@ Scene_SlotMachine.prototype.result = function () {
         AudioManager.playMe({"name": "", "volume": 90, "pitch": 100, "pan": 0});
     }
     else {
+        $gameSystem.onBeforeSave();
+        if (!DataManager.saveGame(DataManager.lastAccessedSavefileId())) {
+            throw new Error('！！！セーブに失敗しました。セーブファイルは消去されています。！！！');
+        }
         this._helpWindow.setText(lostMessage + '\n' + replayMessage);
         this._helpWindow.open();
         this._replayCommandWindow.open();
