@@ -1,0 +1,13 @@
+{
+    "name": "Purgobox",
+    "main": "index.html",
+    "js-flags": "--expose-gc",
+    "chromium-args": "--in-process-gpu --disable-direct-composition",
+    "window": {
+        "title": "",
+        "toolbar": false,
+        "width": 816,
+        "height": 624,
+        "icon": "icon/icon.png"
+    }
+}
